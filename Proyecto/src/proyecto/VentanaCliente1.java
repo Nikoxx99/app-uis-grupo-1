@@ -118,7 +118,7 @@ public class VentanaCliente1 extends javax.swing.JFrame implements Observer {
             this.setLocationRelativeTo(null);
             //c = new cliente(5000, "192.168.0.21");
             //c = new cliente(5000, "207.248.81.156");
-            c = new cliente(5000, "18.215.144.23");
+            c = new cliente(5000, "127.0.0.1");
             c.addObserver(this);
             t = new Thread(c);
             c.setAja(t);

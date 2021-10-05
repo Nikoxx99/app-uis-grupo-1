@@ -32,7 +32,6 @@ public class PantallaDeCargaGrande extends javax.swing.JFrame {
         initComponents();
         this.setLocationRelativeTo(null);
         AWTUtilities.setWindowOpaque(this, false);
-        ;
 
         
     }
